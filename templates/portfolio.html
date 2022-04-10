@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>o programiranju</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+{% extends "base.html" %}
 
-</head>
-<body>
+{% block content %
+<title>o programiranju</title>
+
 <h2>Neki od mojih projekata.</h2>
 <h2>Fakebook Link</h2>
 <p><a href="https://gist.github.com/Jskoric95/2390d0f1ea0af6ff98e206be2681c3e3">Fakebook</a></p>
@@ -19,5 +15,4 @@
 
 <img src="/static/img/smartninja-logo.png">
 
-</body>
-</html>
+{% endblock content %}

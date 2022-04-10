@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Pozdrav svima</title>
-        <link rel="stylesheet" href="/static/css/style.css">
-    </head>
+{% extends "base.html" %}
 
-    <body>
-        <h1>Dobrodošli na moju stranicu.</h1>
-        <img src="/static/img/rope.jpg">
-    </body>
-</html>
+{% block content %}
+    <h1>Pozdrav, Dobrodošli na moju stranicu!</h1>
+
+    <h2>Moje ime je Joso.</h2>
+    <img src="/static/img/rope.jpg">
+
+{% endblock content %}
